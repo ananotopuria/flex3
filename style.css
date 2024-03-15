@@ -28,7 +28,7 @@ main {
   display: flex;
 }
 
-.card-img {
+.card__img {
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
   width: 50%;
@@ -36,41 +36,41 @@ main {
 .descr {
   padding: 4rem;
 }
-.parfume {
+.descr__parfume {
   letter-spacing: 1rem;
   font-size: 1.2rem;
   text-transform: uppercase;
 }
-.title {
-  font-family: 'Fraunces', serif;
+.descr__title {
+  font-family: "Fraunces", serif;
   margin-top: 4rem;
   color: #1c232b;
   font-size: 3rem;
 }
 
-.txt {
+.descr__txt {
   font-size: 1.6rem;
   margin-top: 4rem;
 }
 
-.price {
+.descr__price {
   display: flex;
   flex-direction: row;
   gap: 2rem;
   align-items: center;
   margin-top: 4rem;
 }
-.new-price {
-  font-family: 'Fraunces', serif;
+.descr__new--price {
+  font-family: "Fraunces", serif;
   font-size: 4rem;
   color: #3c8067;
   font-weight: bold;
 }
-.old-price {
+.descr__old--price {
   font-size: 1.6rem;
   text-decoration: line-through;
 }
-.btn {
+.descr__btn {
   color: #fff;
   background-color: #3c8067;
   border: none;
@@ -81,7 +81,7 @@ main {
   border-radius: 2rem;
 }
 
-.btn:hover {
+.descr__btn:hover {
   background-color: #184632;
   cursor: pointer;
 }
